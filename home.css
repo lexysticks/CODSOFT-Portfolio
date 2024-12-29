@@ -1,0 +1,403 @@
+
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow-x: none;
+  }
+  
+  
+  .about_me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .slider-container {
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .container {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    border-radius: 8px;
+  }
+  
+  .card img {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button a {
+    color: white;
+    text-decoration: none;
+  }
+  .service{
+    color: #007bff;
+  }
+  
+
+nav li {
+    width: 120px;
+    height: 20px;
+    position: relative;
+    margin: 12px;
+    padding: 15px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+    
+nav li a:hover{
+    border-bottom: 2px solid orangered;
+}
+#mybtn{
+    display: none;
+}
+.hidden{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    border-bottom: 2px solid orangered
+}
+
+
+
+
+header{
+    background-image: url(/image/plain\ bavkground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: rem;
+    padding: 10px;
+
+}
+.logo_pro{
+    font-size: 3rem;
+}
+.logo_pro span{
+    color: orangered;
+}
+.logo{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+
+
+
+    
+}
+.olalekan11{
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.promax{
+    display: flex;
+    align-items: center;
+     justify-content: space-between; 
+    margin-top: 64px;
+    padding: 40px;
+    font-size: 2rem;
+    gap: 40px;
+    
+    
+}
+.promax span{
+    color: orangered;
+    font-size: 3rem;
+    text-shadow: 0 0 50px orangered,
+                  0 0 0px orangered,
+                  0 0 0px orangered,
+                  0 0 0px orangered;
+}
+.about{
+
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.about_me{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+.about_img{
+    width: 400px;
+}
+
+.about_skill ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 40px;
+}
+.tab_link{
+    position: relative;
+    font-size: 18px;
+    margin-right: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: larger;
+    
+}
+.tab_link::after{
+    width: 50%;
+    height: 3px;
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+
+}
+.tab_link.active::after{
+    width: 50%;
+}
+.about_skillcontent {
+    display: none;
+}
+.about_skillcontent ul li span{
+    color: orangered;
+    font-size: 14px;
+}
+.about_skillcontent.active_content{
+     display: block;
+}
+.project{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.my_project{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    /* width: 400px;
+    height: 300px; */
+
+}
+
+.container:hover{
+    background-color: orangered;
+    color: white;
+    transform: translateY(-10px);
+    transition: 1s ease-in;
+}
+.social{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.18);
+    padding: 20px;
+}
+
+    
+.social_promax{
+    gap: 10px;
+}
+.form{
+    width: 100%;
+    /* background-color: black;
+    color: white;
+    line-height: 10px;
+    width: 40px; */
+}
+.form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #262626;
+    padding: 15px;
+    margin: 15px 0px;
+    font-size: 18px;
+}
+.container{
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+h1{
+    transform: translateY(50px);
+    opacity: 0;
+    filter: blur(20px);
+    animation: display 0.5s 1s linear 1 forwards;
+}
+@keyframes display{
+  to{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+h2{
+    transform: translateY(50px);
+    opacity: 0;
+    filter: blur(20px);
+    animation: display 1.2s 1s linear 1 forwards;
+}
+@keyframes display{
+  to{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+.olalekan1{
+    transform: translateX(50px);
+    opacity: 0;
+    filter: blur(20px);
+     animation: olalekan1 0.5s 1s linear 1 forwards; 
+    /* animation-delay: ;
+    transition: 0.5s ease-in; */
+}
+@keyframes olalekan1{
+  to{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+.display h1{
+    animation-delay: 1.4s;
+}
+footer{
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+@media only screen and (max-width:600px) {
+    .hidden{
+         display: none;
+         
+         
+    }
+    .logo{
+        display: flex;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .promax{
+        font-size: 16px;
+        gap: -50px;
+    }
+    #mybtn{
+        display: block;
+    }
+    
+    }
+    .logo_promax ul li:hover{
+        display: inline-block;
+    }
+    .about_me{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .about_img{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .olalekan11{
+        
+        width: 150px;
+        border-radius: 100px;
+        margin-right:200px; 
+    }
+    
+        
+       
+    .container{
+        gap: 20px;
+        
+    }
